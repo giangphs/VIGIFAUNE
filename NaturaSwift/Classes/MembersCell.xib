@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="98" id="J5g-O5-2xA" customClass="MembersCell" customModule="NaturaSwift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="98"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="J5g-O5-2xA" id="5Ef-sf-J09">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="97"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="EsY-0f-UNx">
+                        <rect key="frame" x="8" y="19" width="59" height="59"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="59" id="vzr-5D-5xo"/>
+                            <constraint firstAttribute="height" constant="59" id="wVI-cy-7sK"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EAD-8j-40L" userLabel="Label1">
+                        <rect key="frame" x="76" y="40" width="193" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mh8-cg-eq8">
+                        <rect key="frame" x="259" y="0.0" width="61" height="97"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="61" id="JI8-6s-hdD"/>
+                        </constraints>
+                        <state key="normal">
+                            <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_add_member_group" translatesAutoresizingMaskIntoConstraints="NO" id="1O2-bb-hKt">
+                        <rect key="frame" x="283" y="39" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="Syf-mq-R8J"/>
+                            <constraint firstAttribute="height" constant="20" id="sKM-Tx-nky"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" alpha="0.69999998807907104" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="divider1" translatesAutoresizingMaskIntoConstraints="NO" id="Xy8-13-nil">
+                        <rect key="frame" x="66" y="96" width="254" height="1"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="Ckt-Tw-tFQ"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="EAD-8j-40L" firstAttribute="centerY" secondItem="EsY-0f-UNx" secondAttribute="centerY" constant="0.5" id="9p2-yy-Ha5"/>
+                    <constraint firstItem="EAD-8j-40L" firstAttribute="leading" secondItem="EsY-0f-UNx" secondAttribute="trailing" constant="9" id="F7B-Cz-TCF"/>
+                    <constraint firstItem="Xy8-13-nil" firstAttribute="leading" secondItem="EsY-0f-UNx" secondAttribute="trailing" constant="-1" id="IEz-Pr-UuE"/>
+                    <constraint firstItem="1O2-bb-hKt" firstAttribute="top" secondItem="5Ef-sf-J09" secondAttribute="topMargin" constant="31" id="KvP-lL-G7b"/>
+                    <constraint firstItem="mh8-cg-eq8" firstAttribute="top" secondItem="5Ef-sf-J09" secondAttribute="topMargin" constant="-8" id="Lbb-T0-Opg"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Xy8-13-nil" secondAttribute="bottom" constant="-8" id="MRV-B6-duy"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="1O2-bb-hKt" secondAttribute="trailing" constant="9" id="NQe-5S-smH"/>
+                    <constraint firstItem="EsY-0f-UNx" firstAttribute="leading" secondItem="5Ef-sf-J09" secondAttribute="leadingMargin" id="OvT-9J-tw2"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="mh8-cg-eq8" secondAttribute="trailing" constant="-8" id="SAD-Qr-R9k"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="mh8-cg-eq8" secondAttribute="bottom" constant="-8" id="X3d-fJ-ChE"/>
+                    <constraint firstItem="1O2-bb-hKt" firstAttribute="centerY" secondItem="5Ef-sf-J09" secondAttribute="centerY" id="dvH-HB-ITv"/>
+                    <constraint firstItem="1O2-bb-hKt" firstAttribute="leading" secondItem="EAD-8j-40L" secondAttribute="trailing" constant="14" id="fh0-CV-kWo"/>
+                    <constraint firstItem="mh8-cg-eq8" firstAttribute="leading" secondItem="5Ef-sf-J09" secondAttribute="leadingMargin" constant="251" id="gkf-F9-v7g"/>
+                    <constraint firstItem="mh8-cg-eq8" firstAttribute="centerY" secondItem="5Ef-sf-J09" secondAttribute="centerY" id="ncZ-ga-sHS"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Xy8-13-nil" secondAttribute="trailing" constant="-8" id="y2A-yK-CNe"/>
+                    <constraint firstAttribute="centerY" secondItem="EsY-0f-UNx" secondAttribute="centerY" id="yPd-tv-XFk"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="gkf-F9-v7g"/>
+                        <exclude reference="KvP-lL-G7b"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="btnAddFriend" destination="mh8-cg-eq8" id="PvH-bD-wyz"/>
+                <outlet property="constraint_image_height" destination="wVI-cy-7sK" id="ye1-fE-uot"/>
+                <outlet property="constraint_image_width" destination="vzr-5D-5xo" id="ZzQ-JU-ugS"/>
+                <outlet property="imageIcon" destination="EsY-0f-UNx" id="LEn-mk-JY1"/>
+                <outlet property="imageLine" destination="Xy8-13-nil" id="gmZ-8t-gvf"/>
+                <outlet property="imgAddFriend" destination="1O2-bb-hKt" id="ozp-2u-toc"/>
+                <outlet property="label1" destination="EAD-8j-40L" id="pG8-Wv-tWe"/>
+            </connections>
+            <point key="canvasLocation" x="340" y="463"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="divider1" width="888" height="4"/>
+        <image name="ic_add_member_group" width="62" height="62"/>
+    </resources>
+</document>

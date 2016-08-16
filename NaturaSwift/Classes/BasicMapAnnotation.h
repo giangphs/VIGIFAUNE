@@ -1,0 +1,16 @@
+#import <Foundation/Foundation.h>
+#import <MapKit/MapKit.h>
+
+@interface BasicMapAnnotation : NSObject <MKAnnotation> {
+	CLLocationDegrees _latitude;
+	CLLocationDegrees _longitude;
+}
+
+@property (nonatomic, assign) NSInteger index;
+
+- (id)initWithLatitude:(CLLocationDegrees)latitude
+		  andLongitude:(CLLocationDegrees)longitude
+                 index:(NSInteger)index;
+- (void)setCoordinate:(CLLocationCoordinate2D)newCoordinate;
+
+@end

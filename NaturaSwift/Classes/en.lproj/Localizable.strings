@@ -1,0 +1,803 @@
+/*
+ Localizable.strings
+ NaturaSwift
+ 
+ Created by Manh on 7/4/16.
+ Copyright © 2016 PHS. All rights reserved.
+ */
+//********************** Tabbar *********************//
+
+"Mur"                   = "Mur";
+"Salons"                = "Agenda";
+"Groupes"               = "Groupes";
+
+//********************** Login *********************//
+
+"Email_Address"         = "Adresse email";
+"Password"              = "Mot de passe";
+"Login"                 = "Connexion";
+"Forgot_Password"       = "Mot de passe oublié ?";
+"Register"              = "S’inscrire";
+"Alert_Message"         = "Veuillez sélectionner un";
+"Image-Missing"         = "Veuillez sélectionner une";
+"Image-Missing"         = "Veuillez sélectionner une image de profil";
+"Email"                 = "Email";
+"Login_Title"           = "Identifiez-vous pour accéder à votre compte";
+"Or"                    = "ou";
+"INCORRECT"             = "Nom d'utilisateur ou mot de passe incorrect";
+"INVALID_ERROR"         = "Une erreur s'est produite";
+"ERROR"                 = "Erreur";
+"CGU_unchecked"         = "Vous devez accepter les CGU pour vous inscrire";
+"Content_Empty"         ="Veuillez entrer un message";
+"Reset-Connection"      = "Restez connecté";
+
+
+
+"Error_Alert"           = "Vous vous connectez depuis un appareil non enregistré. Veuillez regarder vos mails pour confirmer l'ajout de l'appareil actuel.";
+
+//********************** Signup *********************//
+
+"Valider"               = "Valider";
+"Civilite0"             = "Indéfini";
+"Civilite1"             = "Monsieur";
+"Civilite2"             = "Madame";
+"return"                = "Retour";
+"FirstName"             = "Prénom";
+"Name"                  = "Nom";
+
+
+"Sorry_No_Camera"       = "Camera non disponible";
+"Register_Condition"    = "";
+"Change"                = "Modifier";
+"Register_Title"        = "Veuillez remplir les champs ci-dessous pour vous inscrire";
+"Choose_Photo"          = "Choisissez une photo de profil";
+"Choose_Avatar"         = "Choisir un avatar";
+"Take_Photo"            = "Prendre une photo";
+"Choose_Library"        = "Choisir dans la bibliothèque";
+"Cancel"                = "Annuler";
+"Choose_Civility"       = "Civilité (fac.)";
+"INVALIDEMAIL"          = "S'il vous plaît entrez l'adresse e-mail valide";
+"Image"                 = "Image";
+"Registered Successfully"  = "Votre inscription a bien été validée";
+
+//********************** All(Tous les) Salons *********************//
+
+"Looking_Salon"         = "Rechercher un agenda";
+"MySalons"              = "Mes Agendas";
+"AllSalons"             = "Toutes les agendas";
+"Rejoin"                = "Rejoindre";
+"Members"               = "Membres";
+"Access"                = "Accéder";
+"To Commit"             = "À valider";
+"On hold"               = "En attente";
+"Join_Salon"            = "Rejoindre un événement";
+"Join_Salon_Text"       = "Votre demande a été envoyée aux administrateurs de l'événement. Vous serez définitivement inscrit après validation.";
+"Join_Salon_Text_Public"       = "Vous avez rejoint l'événement, vous pouvez le trouvez dans la liste Mon agenda.";
+"Rejoindre_un_group_public" = "Vous avez rejoint le groupe \"%@\". Vous pouvez maintenant partager vos publications avec ce groupe en le cochant lors de l'ajout d'une publication. Vous pouvez consulter la carte et les publications de ce groupe en allant dans la rubrique \"Mes groupes\"";
+"Rejoindre_un_group"= "Votre demande a été envoyé aux administrateurs de l'événement. Vous serez définitivement inscrit apès validation.";
+
+"Rejoindre_un_loung_public" = "Vous avez rejoint cet événement \"%@\". Vous pouvez le trouver dans votre Agenda.";
+"Rejoindre_un_loung"= "Votre demande a été envoyée aux administrateurs. Vous serez définitivement inscrit après validation de leur part. Vous recevrez une notification en ce sens.";
+"Close"                 = "Fermer";
+"ADDREQUEST"            ="Demandé";
+"Loading previous items"="Chargement des anciens événements";
+"Yes"                   = "Oui";
+"No"                    = "Non";
+
+//********************** All(Tous les) Salons Detail *********************//
+
+"Discussion"            = "Discussion";
+"Map"                   = "Carte";
+"Submit"                = "Envoyer";
+"Message"               = "Message";
+
+////**********************MurViewController**********************************//
+
+"PHOTO"                 ="Photo";
+"VIDEO"                 ="Vidéo";
+"LIKE"                  =" j'aime";
+"DISLIKE"               =" j'aime pas";
+"COMMAND"               =" Commenter";
+"COMMANT"               ="commentaire  ";
+"MULTICOMMANT"          ="commentaires ";
+"SHARE"                 =" Partager";
+"PHOTOGRAPH"            ="Prendre une photo";
+"LIBRARY"               ="Choisir dans la bibliothèque";
+"RECORDING_VIDEO"       ="Filmer une Vidéo";
+"SEARCH"                ="Rechercher";
+"POSTPHOTO"             ="Publier une photo";
+"POSTVIDEO"             ="Publier une vidéo";
+"POSTPHOTOCAPS"         ="PUBLIER UNE PHOTO";
+"POSTVIDEOCAPS"         ="PUBLIER UNE VIDÉO";
+"REQUESTSENT"           ="Votre demande d'ajout à votre liste d'amis a bien été envoyée";
+"Last Updated"          ="Dernière mise à jour:";
+"REPORT"                ="Êtes-vous ￼sur de vouloir signaler ce contenu ?";
+"Participe"                   ="Participe";
+"Ne participe pas"                    ="Ne participe pas";
+"Loaded previous items" ="Chargement des anciennes publications";
+"IMAGEPOSTED"           ="La photo a été mise à jour avec succès.";
+"NO_Network_Unpulish"="La connexion n’étant pas suffisante, votre publication est mise en mémoire. Dès que votre connexion sera meilleure, elle sera mise en ligne.";
+"Common_error"          ="Une erreur est survenue lors de l'invitation des amis";
+////**********************MessageViewController********************************//
+
+"POST_MESSAGE"          ="PUBLIER UN MESSAGE";
+"TYPE_YOUR_TEXT"        ="Tapez votre texte...";
+"SHARING"               ="Partage";
+"LEGEND"                ="Légende...";
+"TAG"                   ="Tags";
+"FRIENDS"               ="Amis";
+"GEOLOCATION"           ="Géolocalisation";
+"PUBLISH"               ="Publier";
+"EDIT_MESSAGE"          ="MODIFIER UN MESSAGE";
+
+
+//******************SharingViewController************************************//
+
+"EXCEPT_a"                ="Sauf à :";
+"EXCEPT"                  ="SAUF";
+"SHARE_WITH"              ="PARTAGER AVEC";
+//***************Groupes******************************************//
+
+"MY_GROUPS"               ="Mes Groupes";
+"ALL_GROUPS"              ="Tous les Groupes";
+"ADDMINISTRER_GROUP"      ="Groupes";
+"ENTER_GROUP"             ="Accéder au groupe";
+"NEW_GROUP"               ="Créer un nouveau groupe";
+
+/// **************NEW GROUP VIEW ********************************//
+
+"WARNING"                 ="AVERTISSEMENT";
+"STEP1"                   ="ETAPE 1";
+"STEP2"                   ="ETAPE 2";
+"MODIFY"                  ="modifier";
+"GROUP_NAME"              ="Nom du groupe";
+"DESCRIPTION"             ="Description(fac.)";
+"ACCESS"                  ="Accès";
+"SEMI-PRIVATE"            ="Semi-Privé";
+"VALIDATE"                ="Valider";
+"ADD"                     ="Ajouter";
+"REQUETS"                 ="Demander";
+"INVITE_FRIENDS"          ="INVITER DE AMIS";
+"SUBSCRIBER"              ="Abonné(e)s";
+"INVITE_MEMBERS"          ="INVITER DES MEMBRES";
+"INVITE_GROUPS"           ="INVITER DES GROUPES";
+"ENVOY"                   ="Envoyer";
+"REMOVE"                  ="Supprimer";
+"ADMINISTRATOR"           ="ADMINISTRATEUR";
+"BAN"                     ="EXCLURE";
+"ADMIN"                   ="Admin";
+"ACCEPTER"                ="Accepter";
+"SEARCHGROUP"             ="Rechercher un groupe";
+"REJOINGROUP"             ="Rejoindre un groupe";
+"JOINED_GROUP"            ="Vous avez rejoint le groupe.\nIl apparaîtra dans la rubrique <Mes Groupes>";
+
+// ************NAVIGATION VIEW ************************//
+
+"RETURN"                  = "Retour";
+//************ToolBar************************//
+"PREVIOUS"                ="Précédent";
+"NEXT"                    = "Suivant";
+"DONE"                    = "Ok";
+
+// ************SlideView ************************//
+
+"SELECT_TYPE"               ="Sélectionnez le type d'information que vous souhaitez faire apparaitre";
+"GENERAL_PARAMETER"         ="Paramétres généraux";
+"MESGROUP"                  ="Mes groupes";
+
+"MOI"                       ="Moi";
+"MYFRIEND"                  ="Mes amis";
+"KNOWLEDGE"                 ="Mes connaissances";
+"MEMBER"                    ="Tout le monde";
+"EVERYONE"                  ="Tout le monde";
+"PERSONALINFO"              ="Informations personnelles";
+"CONFIGURATION_SHARES"      ="Configuration des partages";
+"FRIENDS_INVITE"            ="invitez des amis";
+"LOGOUT"                    ="Déconnexion";
+"IMPRINT"                   ="Mentions légales";
+"TERM_OF_USE"               ="Conditions générales d'utilisations";
+"FRIEND_REQUEST"            ="Invitations amis";
+
+// ************PARTICIPATE VIEW ************************//
+
+"Participate2"              ="Participe peut-être";
+"Participate1"              ="Participe";
+"Participate0"              ="Ne participe pas";
+
+// ************TOP VIEW ************************//
+
+"MYSHOWROOM"                ="Mon agenda";
+"ALLROOM"                   ="Toutes les événements";
+
+"MYGROUP"                   ="Mes Groupes";
+"ALLGROUP"                  ="Tous les Groupes";
+
+"PUBLIC"                    ="PUBLIC";
+"SEMIPRIVATE"               ="SEMI-PRIVÉ";
+"PRIVATE"                   ="PRIVÉ";
+
+
+"EmptyField"                = "Veuillez remplir tous les champs";
+"EmptyImage"                = "Veuillez choisir une image";
+
+
+//  ***************MESSALON ***************** //
+
+"DELETELOUNGE"              ="Êtes-vous sur de vouloir supprimer l'événement";
+"ACTIVE"                    ="activé";
+"ACTIVEE"				= "activée";
+"DEACTIVE"                  ="désactivé";
+"DESACTIVEE"			= "désactivée";
+"NUMBER_PARTICIPANT"="Nombre de participants : %@";
+
+//  ***************NETWORK ***************** //
+"No_network"                 ="Vous n'avez pas assez de couverture réseau. Prenez votre photo ou vidéo avec votre téléphone. Vous pourrez l'importer et la géolocaliser lorsque vous aurez retrouvé du réseau.";
+"NETWORK"                    ="Pas de connexion internet";
+
+
+//  ***************ERROR ***************** //
+
+"ERRORTITLE"                ="L'application est actuellement en cours de maintenance";
+"ERRORDESCRIPTION"          ="Afin de toujours être en mesure de vous apporter un service de qualité, nous effectuons en ce moment des opérations de maintenance";
+"INCONVIENINENCE"           ="Nous vous prions de nous excuser pour la gêne occasionée";
+
+
+//  ***************ERROR ***************** //
+
+"LIST_OF_NOTICES"   ="LISTE DES NOTIFICATIONS";
+"SALONTEXT1"        ="Les chasses qui permettent de préparer et de suivre vos chasses sont temporairement fermés sur NaturaPass. Nous allons les ouvrir durant l'été. Pour plus de précisions, vous pouvez vous rendre sur le site internet.";
+"SALONTEXT2"        ="En attendant, nous vous conseillons d'utiliser la carte pour cartographier votre territoire avant l'ouverture de la chasse et d'avoir le maximum d'éléments positionnés quand vous et vos partenaires utiliserez les Chasses.";
+"SALONTEXT3"        ="Bien naturellement,";
+
+
+"FORGETALERT"="Veuillez sélectionner un email valide";
+
+
+// ******* MYPROFILE VIEW ******** //
+
+"Update_Alert"      =   "Please enter password";
+"Sucess_Alert"      =   "Your information has been updated successfully";
+"Password_Alert"    =   "The new passwords do not match";
+"OldPassword_Alert" =   "The old password is invalid";
+
+
+// ******* MAPVIEW (SALON) ******* //
+
+"LOCATION_ACTIVATED" = "Géolocalisation activée";
+
+"LOCATION_DISACTIVED" = "Géolocalisation désactivée";
+
+"LOCATION_ACTIVATED_MESSAGE" = "L'administrateur a activé la géolocalisation de l'événement, les utilisateurs pourront être affichés sur la carte.";
+
+"LOCATION_DISACTIVATED_MESSAGE" = "L'administrateur a désactivé la géolocalisation de l'événement, les utilisateurs ne seront plus affichés sur la carte.";
+"ALERT_debut_TIME_ISSUE"="Veuillez définir une date de début antérieure à la date de fin.";
+
+"ALERT_fin_TIME_ISSUE"="Veuillez définir une date de fin ultérieure à la date de début.";
+"delete_chasse_title"="Fermeture de l'événement";
+"delete_chasse_content"         ="Êtes-vous sur de vouloir quitter l'événement \"%@\"?";
+
+"delete_group_title"="Fermeture du groupe";
+
+"delete_group_content"="Etes-vous sur de vouloir fermer le groupe \"%@\"?";
+"leave_group_content"="Êtes-vous sûr de vouloir vous désinscrire du groupe \"%@\"?";
+
+"INVITE REJOIN GROUP"="%@ vous invite à rejoindre le groupe %@";
+//************** V2 *******************//
+"delete_join_message_chasse" = "Êtes-vous sûr de vouloir vous désinscrire de cet événement ?";
+"delete_join_title_chasse" =  "Quitter un événement";
+"close_chasse" = "Êtes-vous sûr de vouloir supprimer cet événement ?";
+"accept_invition_tourchasse" = "Vous avez été invité à cet évenement. Voulez-vous accepter cette invitation.";
+"Rejoindre_accept_semi" = "Rejoindre un événement semi-privé";
+"Rejoindre_accept_public" = "Rejoindre un événement";
+"Rejoindre_accept_prive" = "Rejoindre un événement privé";
+
+"Warn_Chat_Offline"="Réseau insuffisant: votre message a été enregistré et sera transmis dès que le réseau le permettra.";
+
+/*def*/
+"THANKYOU_FORRATING"="Merci de donner votre avis sur Naturapass sur Appstore.";
+//ggtt5
+//Interaction Citoyennes
+"Title_app"="Naturapass";
+"Merci de donner votre avis sur Naturapass sur Appstore."="Merci de donner votre avis sur Naturapass sur Appstore.";
+"Je ne veux pas"="Je ne veux pas";
+"Plus tard"="Plus tard";
+"Oui"="Oui";
+"DÉCONNEXION"="DÉCONNEXION";
+"Êtes-vous sûr de vouloir vous déconnecter de?"="Êtes-vous sûr de vouloir vous déconnecter de Naturapass?";
+"ANNULER"="ANNULER";
+"VALIDER"="VALIDER";
+"OK"="OK";
+""="";
+"Mon statut"="Mon statut";
+"Type d'affichage de la carte"="Type d'affichage de la carte";
+"Vent"="Vent";
+"Filtrer par type de contenu"="Filtrer par type de contenu";
+"Filtrer par type de partage"="Filtrer par type de partage";
+"Mes groupes"="Mes groupes";
+"Mes agenda"="Mon agenda";
+"Météo"="Météo";
+"Adresse introuvable"="Adresse introuvable";
+"TABLEAU DE BORD"="TABLEAU DE BORD";
+"GROUPES"="GROUPES";
+"AGENDA"="AGENDA";
+"CARTE"="CARTE";
+"PARAMETRES"="PARAMETRES";
+"Aucun repère ne sera chargé dans ce niveau de zoom. Si vous voulez charger des repères, il vous faut zoomer sur la zone qui les concerne."="Aucun repère ne sera chargé dans ce niveau de zoom. Si vous voulez charger des repères, il vous faut zoomer sur la zone qui les concerne.";
+"Votre filtre est actif, mais aucune option n'est sélectionnée. Aucune publication ne s'affichera sur la carte."="Votre filtre est actif, mais aucune option n'est sélectionnée. Aucune publication ne s'affichera sur la carte.";
+"Vous n'avez ni demandé l’accès à  un agenda, ni reçu d'invitation"="Vous n'avez ni demandé l’accès à  un agenda, ni reçu d'invitation";
+"Accès Privé"="Accès Privé";
+"Accès Semi-Privé"="Accès Semi-Privé";
+"Accès Public"="Accès Public";
+"Vous ne participez à aucun événement.\nC'est le moment d'en créer un ou de vous faire inviter."="Vous ne participez à aucun événement.\nC'est le moment d'en créer un ou de vous faire inviter.";
+"Pas de connexion. Vous ne pouvez pas charger cette page"="Pas de connexion. Vous ne pouvez pas charger cette page";
+"Votre réseau n'est pas assez bon pour charger votre agenda. Veuillez réessayer quand vous aurez une meilleure connexion."="Votre réseau n'est pas assez bon pour charger votre événement. Veuillez réessayer quand vous aurez une meilleure connexion.";
+"Serrai-je présent ?"="Serrai-je présent ?";
+"S'il vous plaît entrez Prénom valide"="S'il vous plaît entrez un prénom valide";
+"S'il vous plaît entrez Nom valide"="S'il vous plaît entrez un nom valide";
+"Etes-vous sûr de vouloir annuler votre saisie ?"="Etes-vous sûr de vouloir annuler votre saisie ?";
+"Etes-vous sûr de vouloir annuler votre saisie ?\nVous pouvez sortir sans annuler en cliquant sur le retour menu en haut à gauche. Vous retrouverez votre %@ en revenant dans cette rubrique."="Etes-vous sûr de vouloir annuler votre saisie ?\nVous pouvez sortir sans annuler en cliquant sur le retour menu en haut à gauche. Vous retrouverez votre %@ en revenant dans cette rubrique.";
+"Remplir tout les champs"="Remplir tout les champs";
+"Seules les personnes invitées dans votre agenda pourront accéder à votre agenda et en connaîtront l'existence."="Seules les personnes invitées dans votre événement pourront accéder à votre agenda et en connaîtront l'existence.";
+"Tous le agenda auront accès à votre agenda, mais vous validerez chaque nouvelle inscription.\nVotre agenda sera visible par tout le monde dans la rubrique \"Toutes le agenda\"."="Tous le monde aura accès à votre agenda, mais vous validerez chaque nouvelle inscription.\nVotre agenda sera visible par tout le monde dans la rubrique \"Recherche\".";
+"Tous le agenda auront accès à votre agenda sans restriction. Votre action se limitera à bannir d'éventuels membres indésirables.\nVotre agenda sera visible par tout le monde dans la rubrique \"Toutes le agenda\"."="Tous le monde aura accès à votre agenda sans restriction. Votre action se limitera à bannir d'éventuels membres indésirables.\nVotre agenda sera visible par tout le monde dans la rubrique \"Recherche\".";
+"Félicitations !"="Félicitations !";
+"Votre agenda a été ajouté avec succès."="Votre agenda a été ajouté avec succès.";
+"Suppression adresse"="Suppression adresse";
+"Etes-vous sûr de vouloir supprimer cette publication favorite ?"="Etes-vous sûr de vouloir supprimer cette publication favorite ?";
+"Etes-vous sûr de vouloir supprimer cette adresse ?"="Etes-vous sûr de vouloir supprimer cette adresse ?";
+"La photo a été mise à jour avec succès"="La photo a été mise à jour avec succès";
+"Votre profil a été sauvegardé!"="Votre profil a été sauvegardé!";
+"Saisissez ici vos adresses favorites.\nElles vous permettront de naviguer plus rapidement sur la carte.\nQuand vous vous connectez sur la carte, vous êtes centré automatiquement sur l\'adresse par défaut."="Saisissez ici vos adresses favorites.\nElles vous permettront de naviguer plus rapidement sur la carte.\nQuand vous vous connectez sur la carte, vous êtes centré automatiquement sur l\'adresse par défaut.";
+"Votre filtre est actif, mais aucune option n'est sélectionnée. Aucune publication ne s'affichera sur le mur."="Votre filtre est actif, mais aucune option n'est sélectionnée. Aucune publication ne s'affichera sur le mur.";
+"Êtes-vous sûr de vouloir supprimer cette publication"="Êtes-vous sûr de vouloir supprimer cette publication";
+"Suppression publication"="Suppression publication";
+"Tapez votre message"="Tapez votre message";
+"Votre adresse email et/ou votre mot de passe est/sont faux. Si vous avez oublié votre mot de passe, allez dans Mot de passe oublié."="Votre adresse email et/ou votre mot de passe est/sont faux. Si vous avez oublié votre mot de passe, allez dans Mot de passe oublié.";
+"Votre adresse email et/ou votre mot de passe sont faux. Veuillez les corriger ou faire une demande de mot de passe dans la rubrique Mot de passe oublié"="Votre adresse email et/ou votre mot de passe sont faux. Veuillez les corriger ou faire une demande de mot de passe dans la rubrique Mot de passe oublié";
+"Veuillez renseigner votre adresse e-mail"="Veuillez renseigner votre adresse e-mail";
+"Veuillez saisir un mot de passe"="Veuillez saisir un mot de passe";
+"Votre compte Facebook ne possède pas d'email.\nNous ne pouvons malheureusement pas valider votre inscription par Facebook.\nMerci de réaliser une inscription manuelle !"="Votre compte Facebook ne possède pas d'email.\nNous ne pouvons malheureusement pas valider votre inscription par Facebook.\nMerci de réaliser une inscription manuelle !";
+//mld
+"INVITATIONS AMIS"="INVITATIONS AMIS";
+"INVITEZ VOS AMIS"="INVITEZ VOS AMIS";
+"Sélectionnez tout le monde"="Sélectionnez tout le monde";
+"Pour partager vos photos, videos, points de géolocalisation, chasses. Invitez vos amis à vous rejoindre sur Naturapass en les sélectionnant ou en inscrivant leur email."="Pour partager vos photos, videos, points de géolocalisation, chasses. Invitez vos amis à vous rejoindre sur Naturapass en les sélectionnant ou en inscrivant leur email.";
+"Sélectionnez tout le monde"="Sélectionnez tout le monde";
+"Une connexion internet est requise."="Une connexion internet est requise.";
+"Adresse introuvable"="Adresse introuvable";
+"mon agenda"="mon agenda";
+"recherche"="recherche";
+"historique"="historique";
+"invitations"="invitations";
+"mur"="mur";
+"carte"="carte";
+"discussion"="discussion";
+"paramètres"="paramètres";
+"invités"="invités";
+"infos"="infos";
+"agenda"="agenda";
+"mes groupes"="mes groupes";
+"amis"="amis";
+"inviter"="inviter";
+"filtres"="filtres";
+"profil"="profil";
+"général"="général";
+"email"="email";
+"mobile"="mobile";
+"favoris"="favoris";
+"Ajout d'un repère"="Ajout d'un repère";
+"Vous avez fait une publication geolocalisée ici. Retournez sur le mur pour la compléter."="Vous avez fait une publication geolocalisée ici. Retournez sur le mur pour la compléter.";
+"MOI"="MOI";
+"Sélectionnez le type d'affichage de carte que vous désirez"="Sélectionnez le type d'affichage de carte que vous désirez";
+"Sélectionnez le type contenu que vous souhaitez faire apparaitre"="Sélectionnez le type contenu que vous souhaitez faire apparaitre";
+"Sélectionnez votre statut."="Sélectionnez votre statut.";
+"FERMER"="FERMER";
+"Sélectionnez les repères que vous voulez faire apparaître."="Sélectionnez les repères que vous voulez faire apparaître.";
+"Sélectionnez le participants que vous souhaitez faire apparaitre"="Sélectionnez le participants que vous souhaitez faire apparaitre";
+"DEBUT LE"="DEBUT LE";
+"FIN LE"="FIN LE";
+"RENDEZ-VOUS À"="RENDEZ-VOUS À";
+"VOIR SUR NATURAPASS"="VOIR SUR Naturapass";
+"VOIR SUR AUTRES GPS"="ITINÉRAIRE GPS";
+"INVITER DES NON-NATIZ"="INVITER DES NON-MEMBRES";
+"Vous avez 2 solutions pour inscrire des non-natiz à votre chasse :"="Vous avez 2 solutions pour inscrire des non-membres à votre événement :";
+"- soit en leur envoyant un email pour qu’ils s’inscrivent à Naturapass"="- soit en leur envoyant un email pour qu’ils s’inscrivent à Naturapass";
+"- soit en les inscrivant vous-même à la main. Ils ne deviendront pas Natiz :-(."="- soit en les inscrivant vous-même à la main. Ils ne deviendront pas membre de Naturapass :-(.";
+"SUIVANT"="SUIVANT";
+"Commentaire (facultatif)"="Commentaire (facultatif)";
+"Description (facultatif)"="Description (facultatif)";
+"Annuler Agenda"="Créer un Agenda";
+"Les groupes vous permettent de vous rassembler avec les membres de votre chasse et/ou par centre d’intérêt. \n Ils vous permettent de: \n- discuter et d’échanger des infos entre vous sur le mur de votre groupe, \n - de créer la carte de votre groupe (idéal pour partager des informations cartographiques avec les membres de votre chasse \n- postes, bauge à sanglier, terrier de renard, équipement à réparer...) \n - de lancer des invitations rapidement pour vos battues.\nExemples de groupes : les chasseurs de mon village, les fans de bécasses, les chasseurs à l’arc…"="Les groupes vous permettent de vous rassembler avec les membres de votre chasse et/ou par centre d’intérêt. \n Ils vous permettent de: \n- discuter et d’échanger des infos entre vous sur le mur de votre groupe, \n - de créer la carte de votre groupe (idéal pour partager des informations cartographiques avec les membres de votre chasse \n- postes, bauge à sanglier, terrier de renard, équipement à réparer...) \n - de lancer des invitations rapidement pour vos battues.\nExemples de groupes : les chasseurs de mon village, les fans de bécasses, les chasseurs à l’arc…";
+"Date de fin"="Date de fin";
+"Date de début"="Date de début";
+"Nom"="Nom";
+"EN SAVOIR PLUS ?"="EN SAVOIR PLUS ?";
+"INFORMATIONS"="INFORMATIONS";
+"TYPE D’ACCES"="TYPE D’ACCES";
+"Lieu \nde rendez vous"="Lieu \nde rendez vous";
+"Vous permet de préciser sur une carte le lieu de rendez-vous."="Vous permet de préciser sur une carte le lieu de rendez-vous.";
+
+"INVITER DES PARTICPANTS"="INVITER DES PARTICPANTS";
+"Vous pouvez inviter des personnes. Si elles sont Natiz, elles recevront une invitation sur leur smartphone."="Vous pouvez inviter des personnes. Si elles sont membres de Naturapass, elles recevront une invitation sur leur smartphone.";
+"INVITER MES AMIS NATURAPASS"="INVITER MES AMIS NATURAPASS";
+"Pour inviter des amis à rejoindre votre chasse veuillez les selectionner."="Pour inviter des amis à rejoindre votre événement veuillez les selectionner.";
+"INVITER DES PERSONNES DANS VOTRE NOUVELLE CHASSE"="INVITER DES PERSONNES DANS VOTRE NOUVEL EVENEMENT";
+"Ici vous pouvez inviter:"="Ici vous pouvez inviter:";
+"- I'ensemble des membres d'un de vos chasses en cliquant sur Envoyer."="- L'ensemble des membres d'un de vos événement en cliquant sur Envoyer.";
+"- Seulenment certains membres de ces chasses en cliquant sur Membres."="- Seulenment certains membres de cet événement en cliquant sur Membres.";
+"INVITER DES MEMBRES NATURAPASS"="INVITER DES MEMBRES NATURAPASS";
+"Pour inviter des membres Naturapass à rejoindre votre chasse, rentrez leur nom."="Pour inviter des membres Naturapass à rejoindre votre événement, rentrez leur nom.";
+"Aucun résultat"="Aucun résultat";
+"La personne que vous recherchez n'est peut-être pas inscrite à Naturapass. Vous pouvez lui envoyer un email pour le prévenir."="La personne que vous recherchez n'est peut-être pas inscrite à Naturapass. Vous pouvez lui envoyer un email pour le prévenir.";
+"  Votre message"="  Votre message";
+"Rechercher un membre"="Rechercher un membre";
+"Emails séparés par des ;"="Emails séparés par des ;";
+"Adresse e-mail non valide"="Adresse e-mail non valide";
+"ENVOYER"="ENVOYER";
+"INVITER DES NON-MEMBRES NATURAPASS"="INVITER DES NON-MEMBRES NATURAPASS";
+"Pour les personnes qui ne sont pas inscrites à Naturapass, vous pouvez leur envoyer un email pour les prévenir."="Pour les personnes qui ne sont pas inscrites à Naturapass, vous pouvez leur envoyer un email pour les prévenir.";
+"Souhaitez-vous importer la carte de votre groupe ?"="Souhaitez-vous importer la carte de votre groupe ?";
+"Vous permet de partager les points de votre groupe avec vos invités (postes, miradors,…)."="Vous permet de partager les points de votre groupe avec vos invités (postes, miradors,…).";
+"ADMINISTRATION D'UN EVENEMENT"="ADMINISTRATION D'UN EVENEMENT";
+"MODIFICATION PARTICIPANT"="MODIFICATION PARTICIPANT";
+"Commentaire"="Commentaire";
+"TERMINER"="TERMINER";
+"LISTE DE VOS INVITATIONS"="LISTE DE VOS INVITATIONS";
+"Vous n'avez ni demandé l’accès à  un événement, ni reçu d'invitation"="Vous n'avez ni demandé l’accès à un événement, ni reçu d'invitation";
+"AGENDA – MES EVENEMENTS PASSES"="AGENDA – MES EVENEMENTS PASSES";
+"MON AGENDA"="MON AGENDA";
+"Allez-vous participer à cet événement ?"="Allez-vous participer à cet événement ?";
+"TOUS LES EVENEMENTS"="TOUS LES EVENEMENTS";
+"MODIFICATION PARTICIPANT"="MODIFICATION PARTICIPANT";
+"Participation"="Participation";
+"SUPPRIMER"="SUPPRIMER";
+"PARAMETRES UTILISATEURS"="PARAMETRES UTILISATEURS";
+"DISCUSSION"="DISCUSSION";
+"DISCUSSIONS"="DISCUSSIONS";
+"DISCUSSIONS GROUPES"="DISCUSSIONS GROUPES";
+"DISCUSSIONS CHASSES"="DISCUSSIONS AGENDAS";
+"TOUTES LES DISCUSSIONS"="TOUTES LES DISCUSSIONS";
+"TOUTES LES DISCUSSIONS DES GROUPES"="TOUTES LES DISCUSSIONS DES GROUPES";
+"TOUTES LES DISCUSSIONS DES CHASSES"="TOUTES LES DISCUSSIONS DES AGENDAS";
+"PUBLICATION"="PUBLICATION";
+"Recherchez quelqu'un"="Recherchez quelqu'un";
+"MUR"="MUR";
+"Etes-vous sûr de vouloir supprimer ce message ?"="Etes-vous sûr de vouloir supprimer ce message ?";
+"Non"="Non";
+"Ajouter un commentaire"="Ajouter un commentaire";
+"Signaler"="Signaler";
+"Modifier"="Modifier";
+"Supprimer"="Supprimer";
+"Êtes-vous sûr de vouloir supprimer cette publication ?"="Êtes-vous sûr de vouloir supprimer cette publication ?";
+"TOUS"="TOUS";
+"FILTREZ LES POINTS QUE VOUS IMPORTEZ"="FILTREZ LES POINTS QUE VOUS IMPORTEZ";
+"Choisissez les points de géolocalisation que vous voulez importer."="Choisissez les points de géolocalisation que vous voulez importer.";
+"TYPE DE POINT GEOLOCALISER"="TYPE DE POINT GEOLOCALISER";
+"Veuilez selectionner le type de point geolocaliser que vous souhaitez importer."="Veuilez selectionner le type de point geolocaliser que vous souhaitez importer.";
+"Voulez-vous ajouter cet événement dans l’agenda d’un de vos groupes?"="Voulez-vous ajouter cet événement dans l’agenda d’un de vos groupes?";
+"OUI"="OUI";
+"NON"="NON";
+"RÉCUPÉRATION MOT DE PASSE"="RÉCUPÉRATION MOT DE PASSE";
+"Veuillez renseigner votre adresse email"="Veuillez renseigner votre adresse email";
+"Votre adresse email"="Votre adresse email";
+"AJOUTER"="AJOUTER";
+"ADMINISTRATEUR"="ADMINISTRATEUR";
+"EXCLURE DES MEMBRES"="EXCLURE DES MEMBRES";
+"INFORMATIONS SUR LE GROUPE"="INFORMATIONS SUR LE GROUPE";
+"Nom du groupe"="Nom du groupe";
+"Description de votre groupe"="Description de votre groupe";
+"TYPE DE GROUPE"="TYPE DE GROUPE";
+"INVITER DES MEMBRES"="INVITER DES MEMBRES";
+"Vous pouvez inviter des personnes à rejoindre votre groupe."="Vous pouvez inviter des personnes à rejoindre votre groupe.";
+"Seules les personnes invitées dans votre groupe pourront accéder à votre groupe et en connaîtront l'existence."="Seules les personnes invitées dans votre groupe pourront accéder à votre groupe et en connaîtront l'existence.";
+"Tous les natiz auront accès à votre groupe, mais vous validerez chaque nouvelle inscription.\nVotre groupe sera visible par tout le monde dans la rubrique \"Tous les groupes\"."="Tout le monde aura accès à votre groupe, mais vous validerez chaque nouvelle inscription.\nVotre groupe sera visible par tout le monde dans la rubrique \"Tous les groupes\".";
+"Tous les natiz auront accès à votre groupe sans restriction. Votre action se limitera à exclure d'éventuels membres indésirables.\nVotre groupe sera visible par tout le monde dans la rubrique \"Tous les groupes\"."="Tout le monde aura accès à votre groupe sans restriction. Votre action se limitera à exclure d'éventuels membres indésirables.\nVotre groupe sera visible par tout le monde dans la rubrique \"Tous les groupes\".";
+"PRIVÉ"="PRIVÉ";
+"SEMI-PRIVÉ"="SEMI-PRIVÉ";
+"Pour inviter des amis à rejoindre votre groupe, veuillez les selectionner."="Pour inviter des amis à rejoindre votre groupe, veuillez les selectionner.";
+"INVITER DES PERSONNES DANS VOTRE NOUVEAU GROUPE"="INVITER DES PERSONNES DANS VOTRE NOUVEAU GROUPE";
+"Ici vous pouvez inviter :"="Ici vous pouvez inviter :";
+"- I'ensemble des membres d'un de vos groupes en cliquant sur Envoyer."="- I'ensemble des membres d'un de vos groupes en cliquant sur Envoyer.";
+"- seulement certains membres de ces groupes en cliquant sur Membres."="- seulement certains membres de ces groupes en cliquant sur Membres.";
+"MEMBRES"="MEMBRES";
+"ENVOYER A TOUS"="ENVOYER A TOUS";
+"Pour inviter des membres Naturapass à rejoindre votre groupe, rentrez leur nom."="Pour inviter des membres Naturapass à rejoindre votre groupe, rentrez leur nom.";
+"Content non valide"="Content non valide";
+"ADMINISTRATION DU GROUPE"="ADMINISTRATION DU GROUPE";
+"Informations"="Informations";
+"Qui peut publier"="Qui peut publier";
+"Qui peut consulter"="Qui peut consulter";
+"Type d'accès"="Type d'accès";
+"Inviter des membres"="Inviter des membres";
+"Gérer les administrateurs"="Gérer les administrateurs";
+"Exclure des membres"="Exclure des membres";
+"Infos agenda"="Infos agenda";
+"Infos groupe"="Infos groupe";
+"Gérer les administrateurs"="Gérer les administrateurs";
+"Les membres"="Les membres";
+"Exclure des membres"="Exclure des membres";
+"PERSONNES EN ATTENTE DE VOTRE VALIDATION"="PERSONNES EN ATTENTE DE VOTRE VALIDATION";
+"VOS DEMANDES D'ACCÈS EN ATTENTE"="VOS DEMANDES D'ACCÈS EN ATTENTE";
+"REFUSER"="REFUSER";
+"MES GROUPES"="MES GROUPES";
+"Rechercher"="Rechercher";
+"Votre réseau n'est pas assez bon pour charger la liste de vos groupes. Veuillez réessayer quand vous aurez une meilleure connexion."="Votre réseau n'est pas assez bon pour charger la liste de vos groupes. Veuillez réessayer quand vous aurez une meilleure connexion.";
+"Désinscription du groupe"="Désinscription du groupe";
+"Administrer"="Administrer";
+"Fermer le groupe"="Fermer le groupe";
+"NOTIFICATIONS SMARTPHONE"="NOTIFICATIONS SMARTPHONE";
+"Demande de validation de participation à un group"="Demande de validation de participation à un group";
+"Refus de participation"="Refus de participation";
+"Réponse à un commentaire sur une publication"="Réponse à un commentaire sur une publication";
+"Nouveau j'aime sur une publication"="Nouveau j'aime sur une publication";
+"Nouveau j'aime sur une publication"="Nouveau j'aime sur une publication";
+"Nouveau commentaire sur votre publication"="Nouveau commentaire sur votre publication";
+"Invitation de participation à un groupe"="Invitation de participation à un groupe";
+"Demande de participation à un groupe"="Demande de participation à un groupe";
+"Acceptation de participation à un groupe"="Acceptation de participation à un groupe";
+"TOUS LES GROUPES"="TOUS LES GROUPES";
+"S'inscrire"="S'inscrire";
+"Vous avez été invité dans ce group. Voulez-vous accepter l'invitation ?"="Vous avez été invité dans ce group. Voulez-vous accepter l'invitation ?";
+"MEMBRES DU GROUPE"="MEMBRES DU GROUPE";
+"Proprietaire"="Proprietaire";
+"Administrateurs"="Administrateurs";
+"Membres"="Membres";
+"Invités"="Invités";
+"En attente de validation"="En attente de validation";
+"MODIFIER VOTRE PUBLICATION"="MODIFIER VOTRE PUBLICATION";
+"MES ADRESSES FAVORITES"="MES ADRESSES FAVORITES";
+"FILTRE"="FILTRE";
+"Partage par défaut"="Partage par défaut";
+"Amis visible"="Amis visibles publiquement";
+"NATIZ QUI AIMENT VOTRE PUBLICATION"="PERSONNES QUI AIMENT VOTRE PUBLICATION";
+"Publication"="Publication";
+"Notifications email"="Notifications email";
+"Notifications smartphones"="Notifications smartphones";
+"Adresses favorites"="Adresses favorites";
+"Publications favorites"="Publications favorites";
+"La demande a expiré."="La demande a expiré.";
+"NOTIFICATIONS"="NOTIFICATIONS";
+"MES FAVORIS"="MES FAVORIS";
+"Mes adresse favorites"="Mes adresses favorites";
+"Mes publications favorites"="Mes publications favorites";
+"MES PUBLICATIONS FAVORITES"="MES PUBLICATIONS FAVORITES";
+"MON PROFIL"="MON PROFIL";
+"Civilité (fac.)"="Civilité (fac.)";
+"Prénom"="Prénom";
+"Email"="Email";
+"Date de naissance"="Date de naissance";
+"NOTIFICATIONS EMAIL"="NOTIFICATIONS EMAIL";
+"CHANGER DE MOT DE PASSE"="CHANGER DE MOT DE PASSE";
+"Mot de passe actuel"="Mot de passe actuel";
+"Nouveau mot de passe"="Nouveau mot de passe";
+"Vérification"="Vérification";
+"MA PHOTO DE PROFIL"="MA PHOTO DE PROFIL";
+"MODIFIER"="MODIFIER";
+"PROFIL"="PROFIL";
+"GENERAL"="GENERAL";
+"Profil"="Profil";
+"Général"="Général";
+"Favoris"="Favoris";
+"Un email a été envoyé  à votre adresse électronique"="Un email a été envoyé  à votre adresse électronique";
+"Publier une photo"="Publier une photo";
+"Prendre une photo"="Prendre une photo";
+"Choisir dans la bibliothèque"="Choisir dans la bibliothèque";
+"Annuler"="Annuler";
+"Ajout de la spécification aux favoris"="Ajout de la spécification aux favoris";
+"Nom du favori"="Nom du favori";
+"ENREGISTRER"="ENREGISTRER";
+"Votre wifi n'est pas activé. Pour plus de précision de votre géolocalisation, veuillez l'activer."="Votre wifi n'est pas activé. Pour plus de précision de votre géolocalisation, veuillez l'activer.";
+"GÉRER MON PARTAGE"="GÉRER MON PARTAGE";
+"Amis"="Amis";
+"PARTAGER AVEC"="PARTAGER AVEC";
+"Sentinelle"="Sentinelle";
+"Précisez sur quoi porte votre observation"="Précisez sur quoi porte votre observation";
+"Plus d'animaux"="Plus d'animaux";
+"Elargir la sélection"="Elargir la sélection";
+"Il n'y a pas d'animaux dans notre base qui correspondent à votre recherche.\nVeuillez ré-essayer.\nPour rappel, notre base ne contient que les mammifères et les oiseaux."="Il n'y a pas d'animaux dans notre base qui correspondent à votre recherche.\nVeuillez ré-essayer.\nPour rappel, notre base ne contient que les mammifères et les oiseaux.";
+"-- Choisir une fiche --"="-- Choisir une fiche --";
+"Souhaitez-vous utiliser un favori ?"="Souhaitez-vous utiliser un favori ?";
+"Sélectionnez la couleur de votre repère"="Sélectionnez la couleur de votre repère";
+"(facultatif)"="(facultatif)";
+"Sélectionnez les informations que vous voulez garder en mémoire"="Sélectionnez les informations que vous voulez garder en mémoire";
+"Legende"="Legende";
+"Couleur"="Couleur";
+"Précisions"="Précisions";
+"Fiche"="Fiche";
+"Partage"="Partage";
+"Moi"="Moi";
+"Groupes"="Groupes";
+"Agenda"="Agenda";
+"FAVORIS"="FAVORIS";
+"Retrouvez ici toutes vos informations, vous pouvez les modifier"="Retrouvez ici toutes vos informations, vous pouvez les modifier";
+"Pour gérer vos adresses favorites, rendez-vous dans les paramètres \nen cliquant ici"="Pour gérer vos adresses favorites, rendez-vous dans les paramètres \nen cliquant ici";
+"Entrez une légende qui apparaitra sur la carte"="Entrez une légende qui apparaitra sur la carte";
+"Légende carte"="Légende carte";
+"Suppression favori"="Suppression favori";
+"Etes-vous sûr de vouloir supprimer ce favori de vos publications favorites?"="Etes-vous sûr de vouloir supprimer ce favori de vos publications favorites?";
+"Votre publication a été créée avec succès"="Votre publication a été créée avec succès";
+"Vous pouvez suivre son avancement en cliquant sur l'icone        de la barre"="Vous pouvez suivre son avancement en cliquant sur l'icone        de la barre";
+"   AJOUTER AUX FAVORIS"="   AJOUTER AUX FAVORIS";
+"Voulez-vous partager cette  publication ?"="Voulez-vous partager cette  publication ?";
+"Si \"non\", vous garderez cette publication pour vous.\nOn a le droit d'avoir ses secrets !"="Si \"non\", vous garderez cette publication pour vous.\nOn a le droit d'avoir ses secrets !";
+"Voulez-vous préciser\nvotre publication ?"="Voulez-vous préciser\nvotre publication ?";
+"Exemple : mirador à réparer, tir de sanglier, dégâts de nuisible..."="Exemple : mirador à réparer, tir de sanglier, dégâts de nuisible...";
+"Entre un nom pour\nvotre adresse"="Entre un nom pour\nvotre adresse";
+"Ex: Cabane de agenda"="Ex: Cabane de agenda";
+"Veuillez entrer une adresse."="Veuillez entrer une adresse.";
+"PUBLIER UN MESSAGE"="PUBLIER UN MESSAGE";
+"Tapez votre texte..."="Tapez votre texte...";
+"Votre demande a été envoyée"="Votre demande a été envoyée";
+"Etes-vous sûr de vouloir supprimer ce type de chasse de vos pratiques?"="Etes-vous sûr de vouloir supprimer ce type de chasse de vos pratiques?";
+"Etes-vous sûr de vouloir supprimer ce type de chasse ?"="Etes-vous sûr de vouloir supprimer ce type de chasse ?";
+"Aucune publication pour l'instant.\nSerez-vous le premier?"="Aucune publication pour l'instant.\nSerez-vous le premier?";
+"Vous n'avez aucune demande actuellement."="Vous n'avez aucune demande actuellement.";
+"Vous n'avez actuellement aucun groupe."="Vous n'avez actuellement aucun groupe.";
+"Aucun événement est prévu pour l'instant.\nA vous d'en organiser un!"="Aucun événement est prévu pour l'instant.\nA vous d'en organiser un!";
+"Aucune publication pour le moment.\nAllez-y, publiez!"="Aucune publication pour le moment.\nAllez-y, publiez!";
+"Aucun message. Des chasseurs non bavards ???"="Aucun message. Des chasseurs non bavards ???";
+"Veuillez taper minimum 4 lettres pour faire une recherche"="Veuillez taper minimum 4 lettres pour faire une recherche";
+"AMIS"="AMIS";
+"AIDE"="AIDE";
+"Description"="Description";
+"Annuler Groups"="Créer un groupe";
+"INVITEZ DES NON-MEMBRES NATURAPASS"="INVITEZ DES NON-MEMBRES Naturapass";
+"Pour les personnes qui ne sont pas inscrites à Naturapass, vous pouvez leur envoyer un email pour les prévenir."="Pour les personnes qui ne sont pas inscrites à Naturapass, vous pouvez leur envoyer un email pour les prévenir.";
+"Merci de donner votre avis sur Naturapass sur Appstore."="Merci de donner votre avis sur Naturapass sur Appstore.";
+"Naturapass vous permet de rencontrer d'autres Natiz. Préciser au mieux votre profil vous permettra de faire marcher au mieux cette fonctionnalité."="Naturapass vous permet de rencontrer d'autres Naturapass. Préciser au mieux votre profil vous permettra de faire marcher au mieux cette fonctionnalité.";
+"Dans quels pays chassez-vous ou avez-vous chassé?\n"="Dans quels pays chassez-vous ou avez-vous chassé?\n";
+"Quel type de chasse pratiquez-vous?\n"="Quel type de chasse pratiquez-vous?\n";
+"Quel type de chasse aimeriez-vous pratiquer?\n"="Quel type de chasse aimeriez-vous pratiquer?\n";
+"Dans quels pays chassez-vous ou avez-vous chassé?\n"="Dans quels pays chassez-vous ou avez-vous chassé?\n";
+"Suppression d'une ville"="Suppression d'une ville";
+"Etes-vous sûr de vouloir supprimer cette ville?"="Etes-vous sûr de vouloir supprimer cette ville?";
+"Suppression d'un pays"="Suppression d'un pays";
+"Etes-vous sûr de vouloir supprimer ce pays de vos pays de chasse?"="Etes-vous sûr de vouloir supprimer ce pays de vos pays de chasse?";
+"Etes-vous sûr de vouloir supprimer cette ville?"="Etes-vous sûr de vouloir supprimer cette ville?";
+"Etes-vous sûr de vouloir supprimer cette ville?"="Etes-vous sûr de vouloir supprimer cette ville?";
+"Mes amis"="Mes amis";
+"Autres Natiz"="Autres Naturapass";
+"Non-Natiz"="Non-Naturapass";
+"Je participe"="Je participe";
+"Je ne sais pas"="Je ne sais pas";
+"Je ne participe pas"="Je ne participe pas";
+"ENVOYÉ"="ENVOYÉ";
+"Vous avez envoyé %d invitation."="Vous avez envoyé %d invitation.";
+"Vous avez envoyer %d invitations."="Vous avez envoyer %d invitations.";
+"other peoples"="other peoples";
+"Valider votre liste"="Valider votre liste";
+"Appuyez sur le bouton \"suivant\" pour inviter les personnes selectionnées."="Appuyez sur le bouton \"suivant\" pour inviter les personnes selectionnées.";
+"Tapez votre texte personnalisé ici"="Tapez votre texte personnalisé ici";
+"INVITEZ DES AMIS"="INVITEZ DES AMIS";
+"Rédigez un message personnalisé pour vos amis ou laisser le message par défaut."="Rédigez un message personnalisé pour vos amis ou laisser le message par défaut.";
+"L'envoi de vos invitations s'est fait avec succes"="L'envoi de vos invitations s'est fait avec succes";
+"Terminé"="Terminé";
+"Vous n'avez ni demandé l’accès à  un événement, ni reçu d'invitation"="Vous n'avez ni demandé l’accès à  un événement, ni reçu d'invitation";
+"Administré par"="Administré par";
+"Personnes en attente de validation"="Personnes en attente de validation";
+"Personne en attente de validation"="Personne en attente de validation";
+"Administrateur"="Administrateur";
+"Non-membres"="Non-membres";
+"À VALIDER"="À VALIDER";
+"EN ATTENTE"="EN ATTENTE";
+"ACCÉDER"="ACCÉDER";
+"REJOINDRE"="REJOINDRE";
+"participants"="participants";
+"Commentaire sur votre publication"="Commentaire sur votre publication";
+"Résponse à votre commentaire"="Résponse à votre commentaire";
+"Invitation pour etre ami"="Invitation pour etre ami";
+"Invitation à rejoindre un group"="Invitation à rejoindre un group";
+"Nouvelle(s) publication(s) dans un group"="Nouvelle(s) publication(s) dans un group";
+"Confirmation d amitie"="Confirmation d amitie";
+"Demande d amitie"="Demande d amitie";
+"Reponse a un commentaire sur une publication"="Reponse a un commentaire sur une publication";
+"Nouveau j aime sur une publication"="Nouveau j aime sur une publication";
+"QUI PEUT PUBLIER?"="QUI PEUT PUBLIER?";
+"Habituellement, tout le monde peut publier dans un agenda, mais si besoin, vous pouvez limiter la publication aux administrateurs. Pour ajouter des administrateurs, allez dans les paramètres du agenda."="Habituellement, tout le monde peut publier dans un agenda, mais si besoin, vous pouvez limiter la publication aux administrateurs. Pour ajouter des administrateurs, allez dans les paramètres du agenda.";
+"QUI PEUT CONSULTER?"="QUI PEUT CONSULTER?";
+"Habituellement, tout le monde peut consulter dans un agenda, mais si besoin, vous pouvez limiter la consultation aux administrateurs. Pour ajouter des administrateurs, allez dans les paramètres du agenda."="Habituellement, tout le monde peut consulter dans un agenda, mais si besoin, vous pouvez limiter la consultation aux administrateurs. Pour ajouter des administrateurs, allez dans les paramètres du agenda.";
+"TOUS LES MEMBRES"="TOUS LES MEMBRES";
+"ADMINISTRATEURS"="ADMINISTRATEURS";
+"Inscription manuelle"="Inscription manuelle";
+"Envoi d'emails"="Envoi d'emails";
+"IMPORTER DES POINTS GEOLOCALISES"="IMPORTER DES POINTS GEOLOCALISES";
+"Sélectionnez le groupe dont vous voulez importer les point de géolocalisation."="Sélectionnez le groupe dont vous voulez importer les point de géolocalisation.";
+"Veuillez selectionner le Type de point geolocaliser que vous souhaitez importer"="Veuillez selectionner le Type de point geolocaliser que vous souhaitez importer";
+"Vous pouvez selectionner une partie de cette specification"="Vous pouvez selectionner une partie de cette specification";
+"Vivant"="Vivant";
+"Traces empreintes"="Traces empreintes";
+"Blessés"="Blessés";
+"This publication has content issue!"="This publication has content issue!";
+"Etes-vous sûr de vouloir supprimer %@ de votre liste d'amis?"="Etes-vous sûr de vouloir supprimer %@ de votre liste d'amis?";
+"Amis de"="Amis de";
+"Amis en commun avec"="Amis en commun avec";
+"Habituellement, tout le monde peut publier dans un groupe, mais si besoin, vous pouvez limiter la publication aux administrateurs. Pour ajouter des administrateurs, allez dans les paramètres du groupe."="Habituellement, tout le monde peut publier dans un groupe, mais si besoin, vous pouvez limiter la publication aux administrateurs. Pour ajouter des administrateurs, allez dans les paramètres du groupe.";
+"Habituellement, tout le monde peut consulter dans un groupe, mais si besoin, vous pouvez limiter la consultation aux administrateurs. Pour ajouter des administrateurs, allez dans les paramètres du groupe."="Habituellement, tout le monde peut consulter dans un groupe, mais si besoin, vous pouvez limiter la consultation aux administrateurs. Pour ajouter des administrateurs, allez dans les paramètres du groupe.";
+"amis en commun"="amis en commun";
+"Voulez-vous blacklister \n %@. \n\nVous ne verrez plus ses publications sur le mur. Vous pourrez l'enlever de votre liste noire en vous rendant dans paramètres."="Voulez-vous bloquer %@ ? \n\nVous ne verrez plus ses publications sur le mur.\n Pour le débloquer, vous pourrez l'enlever de votre liste noire en vous rendant dans la rubrique paramètres.";
+"Vous n'avez actuellement aucun publication favorite"="Vous n'avez actuellement aucun publication favorite";
+"OÙ CHASSEZ-VOUS ?\n\n"="OÙ CHASSEZ-VOUS ?\n\n";
+"Moteur de recherche des villes"="Moteur de recherche des villes";
+"Moteur de recheche pays"="Moteur de recheche pays";
+"VOS CHIENS"="VOS CHIENS";
+"VOS ARMES"="VOS ARMES";
+"VOS PAPIERS"="VOS PAPIERS";
+"Etes-vous sur de vouloir supprimer ce chien"="Etes-vous sur de vouloir supprimer ce chien";
+"Etes-vous sur de vouloir supprimer cette arme"="Etes-vous sur de vouloir supprimer cette arme";
+"Etes-vous sur de vouloir supprimer les informations liées à ce papier"="Etes-vous sur de vouloir supprimer les informations liées à ce papier";
+"Voir"="Voir";
+"Ajout ou modification d'un chien"="Ajout ou modification d'un chien";
+"Modification d'une arme"="Modification d'une arme";
+"Ajout d'une arme"="Ajout d'une arme";
+"Sexe"="Sexe";
+"Female"="Femelle";
+"Male"="Male";
+"Type"="Type";
+"Carabine"="Carabine";
+"Fusil"="Fusil";
+"Nom de l'arme"="Nom de l'arme";
+"Marque"="Marque";
+"Calibre"="Calibre";
+"Race"="Race";
+"Etes-vous sur de vouloir supprimer ?"="Etes-vous sur de vouloir supprimer ?";
+"Nom du chien"="Nom du chien";
+"Modification d'un papier"="Modification d'un papier";
+"Ajout d'un papier"="Ajout d'un papier";
+"Entrer un texte"="Entrer un texte";
+"RACE"="RACE";
+"SEXE"="SEXE";
+"DATE DE NAISANCE"="DATE DE NAISANCE";
+"TYPE"="TYPE";
+"BRAND"="BRAND";
+"CALIBRE"="CALIBRE";
+"FEMALE"="FEMELLE";
+"MALE"="MALE";
+"PRENDRE UNE PHOTO"="PRENDRE UNE PHOTO";
+"PRENDRE UNE VIDÉO"="PRENDRE UNE VIDÉO";
+"CHOISIR DANS MA BIBLIOTHÈQUE"="CHOISIR DANS MA BIBLIOTHÈQUE";
+"Veuillez remplir le champs \"%@\" qui est obligatoire."="Veuillez remplir le champs \"%@\" qui est obligatoire.";
+"membre"="membre";
+"et un autre membre"="et un autre membre";
+"Filmer une video"="Filmer une video";
+"Votre publication a été modifiée."="Votre publication a été modifiée.";
+"Voulez-vous faire d'autres modifications ?"="Voulez-vous faire d'autres modifications ?";
+"Voulez-vous vraiment supprimer cet élément?"="Voulez-vous vraiment supprimer cet élément?";
+"ami"="ami";
+"Il n'y a pas de groupe qui correspond à votre recherche"="Il n'y a pas de groupe qui correspond à votre recherche";
+
+"strTitle_Add_Show_Chat_1"="LIMITATION DISCUSSIONS";
+"strTitle_Add_Show_Chat"="Habituellement, tout le monde peut discuter et consulter les discussions dans un événement de l'agenda. Si besoin, vous pouvez limiter l'ajout de message ou la consultation de ces discussions aux administrateurs. Pour ajouter des administrateurs, allez dans les paramètres de l'agenda.";
+"strAgenda_Add_Chat"="QUI PEUT PUBLIER DANS CETTE DISCUSSION ?";
+"strAgenda_Show_Chat"="QUI PEUT VOIR CETTE DISCUSSION ?";
+
+
+"strTitle_Add_Show_Publication_1"="LIMITATION PUBLICATIONS";
+"strTitle_Add_Show_Publication"="Habituellement, tout le monde peut publier et consulter dans un événement de l'agenda, mais si besoin, vous pouvez limiter la publication aux administrateurs. Pour ajouter des administrateurs, allez dans les paramètres de l'agenda.";
+"strAgenda_Add_Publication"="QUI PEUT PUBLIER ?";
+"strAgenda_Show_Publication"="QUI PEUT CONSULTER ?";
+"strWarningInputDialogAllowAddShow"="Merci de sélectionner une option";
+"strEdit_Add_Show_Agenda_chat"="Limitation discussions";
+"strEdit_Add_Show_Agenda_publications"="Limitation publications";
+"strMessages_limites_aux_administrateurs"="Messages limités aux administrateurs";
+"strWarningNotAllowSendMessage"="Vous n'avez pas le droit de poster un message dans la discussion de cet événement";
+
+"Menu_item_Blacklister"="Bloquer";
+
+"Blacklister"="BLOQUER UN UTILISATEUR";
+"Membres blacklister"="Membres bloqués";
+"MEMBRES BLACKLISTER"="MEMBRES BLOQUÉS";
+"DELETE_BLACKLISTER"              ="Êtes-vous sûre de vouloir débloquer cette personne?";
+"strTryAgainRequest" ="Votre réseau n'est pas assez bon. Veuillez réessayer quand vous aurez une meilleure connexion.";
+"strMessage31" = "Etes-vous sûre de vouloir annuler cette étape et finaliser la création du groupe ?";
+"strMessage32" = "Etes-vous sûre de vouloir annuler cette étape et finaliser la création de cet événement ?";
+"strWarningNoBlocker"="Vous n'avez pas bloqué de membre pour le moment";
+"strZeroInvitaionGroup"="Vous n'avez ni demandé l'accès à un groupe, ni reçu d'invitation";
+"strZeroInvitaionAmis"="Vous n'avez aucune invitation d'amis en attente";
+"strPlaceHolderFilter_Csearch"="Mot(s) clé(s)";
+"Download" = "Télécharger";
+"Ignore" = "Ignorer";
+"strNewVertionAvailale" = "Nouvelle version disponible";
+"strNewInThisVersion" = "Nouveau dans cette version";
+"strRequestTimeout"="La requête a expiré.";
+"strVouloirSupprimerCetteComment"="Êtes-vous sûr de vouloir supprimer cette commentaire ?";
+"strMessage33"="Suppression commentaire";

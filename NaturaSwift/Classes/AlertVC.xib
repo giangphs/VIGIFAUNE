@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="bhf-wq-h4b" userLabel="PostAlertView" customClass="AlertVC" customModule="NaturaSwift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" alpha="0.69999998807907104" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="searchtrans_bg" translatesAutoresizingMaskIntoConstraints="NO" id="js1-cG-3kY">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7pJ-Cx-GPT">
+                    <rect key="frame" x="24" y="217" width="272" height="135"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ajouter une publication" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="axP-5V-YFx">
+                            <rect key="frame" x="18" y="15" width="213" height="22"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="18"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xmh-Jf-2xe">
+                            <rect key="frame" x="174" y="82" width="40" height="45"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="45" id="KQg-Lm-Qp2"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="18"/>
+                            <state key="normal" title="NON">
+                                <color key="titleColor" red="0.090196078430000007" green="0.58431372550000005" blue="0.5568627451" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="closeAction:" destination="bhf-wq-h4b" eventType="touchUpInside" id="8gC-jW-KfK"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PZb-Zh-0WM">
+                            <rect key="frame" x="232" y="82" width="32" height="45"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="45" id="EfB-mM-0ag"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="18"/>
+                            <state key="normal" title="OUI">
+                                <color key="titleColor" red="0.090196078430000007" green="0.58431372550000005" blue="0.5568627451" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="OUIAction:" destination="bhf-wq-h4b" eventType="touchUpInside" id="obp-iV-Czs"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sélectionnez le type de publication que vous souhaitez ajouter" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Epr-hN-Nxd">
+                            <rect key="frame" x="17" y="45" width="239" height="29"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="12"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="axP-5V-YFx" firstAttribute="leading" secondItem="7pJ-Cx-GPT" secondAttribute="leading" constant="18" id="283-1c-mB7"/>
+                        <constraint firstItem="Epr-hN-Nxd" firstAttribute="top" secondItem="axP-5V-YFx" secondAttribute="bottom" constant="8" id="8yA-vS-IA2"/>
+                        <constraint firstAttribute="bottom" secondItem="Xmh-Jf-2xe" secondAttribute="bottom" constant="8" id="D6M-x4-h9m"/>
+                        <constraint firstItem="PZb-Zh-0WM" firstAttribute="top" secondItem="Epr-hN-Nxd" secondAttribute="bottom" constant="8" id="GhM-vb-bYN"/>
+                        <constraint firstItem="axP-5V-YFx" firstAttribute="top" secondItem="7pJ-Cx-GPT" secondAttribute="top" constant="15" id="KEC-PX-MGm"/>
+                        <constraint firstItem="PZb-Zh-0WM" firstAttribute="leading" secondItem="Xmh-Jf-2xe" secondAttribute="trailing" constant="18" id="OGM-Bu-h1d"/>
+                        <constraint firstAttribute="trailing" secondItem="PZb-Zh-0WM" secondAttribute="trailing" constant="8" id="QTp-KQ-ZFC"/>
+                        <constraint firstItem="Xmh-Jf-2xe" firstAttribute="top" secondItem="Epr-hN-Nxd" secondAttribute="bottom" constant="8" id="QVh-ho-vZb"/>
+                        <constraint firstItem="Epr-hN-Nxd" firstAttribute="leading" secondItem="7pJ-Cx-GPT" secondAttribute="leading" constant="17" id="YLo-IS-hHl"/>
+                        <constraint firstAttribute="trailing" secondItem="Epr-hN-Nxd" secondAttribute="trailing" constant="16" id="tM1-y7-Yao"/>
+                        <constraint firstAttribute="trailing" secondItem="axP-5V-YFx" secondAttribute="trailing" constant="41" id="tNN-gy-Wkj"/>
+                        <constraint firstAttribute="bottom" secondItem="PZb-Zh-0WM" secondAttribute="bottom" constant="8" id="xRt-hN-LRC"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.33333333329999998" alpha="0.5" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="js1-cG-3kY" secondAttribute="bottom" id="FA8-FV-t3b"/>
+                <constraint firstItem="7pJ-Cx-GPT" firstAttribute="leading" secondItem="bhf-wq-h4b" secondAttribute="leading" constant="24" id="WVN-a4-YCs"/>
+                <constraint firstItem="js1-cG-3kY" firstAttribute="top" secondItem="bhf-wq-h4b" secondAttribute="top" id="b77-AG-BW6"/>
+                <constraint firstAttribute="trailing" secondItem="js1-cG-3kY" secondAttribute="trailing" id="cIQ-VH-S12"/>
+                <constraint firstItem="js1-cG-3kY" firstAttribute="leading" secondItem="bhf-wq-h4b" secondAttribute="leading" id="gBp-Tw-mBN"/>
+                <constraint firstAttribute="trailing" secondItem="7pJ-Cx-GPT" secondAttribute="trailing" constant="24" id="moe-a9-asd"/>
+                <constraint firstAttribute="centerY" secondItem="7pJ-Cx-GPT" secondAttribute="centerY" id="ynh-Oe-eEl"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <connections>
+                <outlet property="cancelButton" destination="Xmh-Jf-2xe" id="0OM-2g-Ru8"/>
+                <outlet property="lbDescriptions" destination="Epr-hN-Nxd" id="E5H-mE-ubO"/>
+                <outlet property="lbTitle" destination="axP-5V-YFx" id="p0U-v9-8sE"/>
+                <outlet property="otherButton" destination="PZb-Zh-0WM" id="rFK-H0-cXc"/>
+                <outlet property="subAlertView" destination="7pJ-Cx-GPT" id="gCJ-r8-bT7"/>
+            </connections>
+            <point key="canvasLocation" x="335" y="496"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="searchtrans_bg" width="320" height="568"/>
+    </resources>
+</document>

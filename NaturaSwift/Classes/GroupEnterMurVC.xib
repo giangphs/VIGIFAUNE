@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GroupEnterMurVC" customModule="NaturaSwift" customModuleProvider="target">
+            <connections>
+                <outlet property="btnCreateEnterGroup" destination="QEx-P6-6v4" id="cAf-lh-GEO"/>
+                <outlet property="lbMessage" destination="36y-bw-NUt" id="9tI-Bf-Wxs"/>
+                <outlet property="vContainer" destination="lIU-vI-DV8" id="BWE-9l-gBc"/>
+                <outlet property="view" destination="Aa6-R0-htM" id="MpB-yR-0IF"/>
+                <outlet property="viewContent" destination="9tS-qI-uVl" id="dZO-88-ciU"/>
+            </connections>
+        </placeholder>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="Aa6-R0-htM">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lIU-vI-DV8" userLabel="CenterView">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9tS-qI-uVl">
+                            <rect key="frame" x="10" y="0.0" width="300" height="568"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="36y-bw-NUt">
+                            <rect key="frame" x="21" y="284" width="278" height="0.0"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="14"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QEx-P6-6v4">
+                            <rect key="frame" x="231" y="469" width="55" height="55"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="55" id="K6t-WB-z5U"/>
+                                <constraint firstAttribute="width" constant="55" id="hbp-nL-oGn"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="ic_group_floating_btn">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="9tS-qI-uVl" firstAttribute="top" secondItem="lIU-vI-DV8" secondAttribute="top" id="2Wu-tD-Pp5"/>
+                        <constraint firstAttribute="trailing" secondItem="QEx-P6-6v4" secondAttribute="trailing" constant="34" id="Ifa-Ug-1d8"/>
+                        <constraint firstItem="36y-bw-NUt" firstAttribute="leading" secondItem="lIU-vI-DV8" secondAttribute="leading" constant="21" id="U48-GB-pFg"/>
+                        <constraint firstAttribute="bottom" secondItem="QEx-P6-6v4" secondAttribute="bottom" constant="44" id="X19-S4-tDx"/>
+                        <constraint firstAttribute="bottom" secondItem="9tS-qI-uVl" secondAttribute="bottom" id="Ycj-3T-mgy"/>
+                        <constraint firstAttribute="trailing" secondItem="9tS-qI-uVl" secondAttribute="trailing" constant="10" id="gtH-QF-SZl"/>
+                        <constraint firstAttribute="trailing" secondItem="36y-bw-NUt" secondAttribute="trailing" constant="21" id="klI-JR-Wza"/>
+                        <constraint firstItem="36y-bw-NUt" firstAttribute="centerY" secondItem="lIU-vI-DV8" secondAttribute="centerY" id="o0T-LR-yKj"/>
+                        <constraint firstItem="9tS-qI-uVl" firstAttribute="leading" secondItem="lIU-vI-DV8" secondAttribute="leading" constant="10" id="oBb-UA-h5n"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="lIU-vI-DV8" secondAttribute="trailing" id="SGW-yy-tUg"/>
+                <constraint firstItem="lIU-vI-DV8" firstAttribute="leading" secondItem="Aa6-R0-htM" secondAttribute="leading" id="c7B-Pb-J0m"/>
+                <constraint firstItem="lIU-vI-DV8" firstAttribute="top" secondItem="Aa6-R0-htM" secondAttribute="top" id="l3B-yO-Rgc"/>
+                <constraint firstAttribute="bottom" secondItem="lIU-vI-DV8" secondAttribute="bottom" id="skY-2m-i7a"/>
+            </constraints>
+            <point key="canvasLocation" x="334" y="347"/>
+        </view>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+    </objects>
+    <resources>
+        <image name="ic_group_floating_btn" width="169" height="169"/>
+    </resources>
+</document>

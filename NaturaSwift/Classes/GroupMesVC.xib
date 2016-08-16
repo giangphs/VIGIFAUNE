@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GroupMesVC">
+            <connections>
+                <outlet property="btnCreateGroup" destination="qMB-nd-eqT" id="YaG-nF-bAG"/>
+                <outlet property="lbMessage" destination="GBm-MX-y3U" id="xfW-ML-NZn"/>
+                <outlet property="lbTitle" destination="KIe-tg-apa" id="xMD-BF-CwM"/>
+                <outlet property="tableControl" destination="X6F-FS-itI" id="c7M-Yx-v2a"/>
+                <outlet property="toussearchBar" destination="pLZ-Eq-VDf" id="C9x-At-W4M"/>
+                <outlet property="vContainer" destination="pkG-dx-KT2" id="OxE-Ru-oj9"/>
+                <outlet property="view" destination="mK4-dv-psM" id="SSD-p9-4Fd"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="mK4-dv-psM">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pkG-dx-KT2" userLabel="CenterView">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MES GROUPES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KIe-tg-apa">
+                            <rect key="frame" x="10" y="8" width="302" height="16"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="13"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <searchBar contentMode="redraw" searchBarStyle="minimal" placeholder="Rechercher" translatesAutoresizingMaskIntoConstraints="NO" id="pLZ-Eq-VDf">
+                            <rect key="frame" x="0.0" y="19" width="320" height="44"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <color key="barTintColor" red="0.54901960780000003" green="0.73333333329999995" blue="0.1450980392" alpha="1" colorSpace="calibratedRGB"/>
+                            <offsetWrapper key="searchTextPositionAdjustment" horizontal="5" vertical="0.0"/>
+                            <offsetWrapper key="searchFieldBackgroundPositionAdjustment" horizontal="0.0" vertical="0.0"/>
+                            <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
+                        </searchBar>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="X6F-FS-itI">
+                            <rect key="frame" x="0.0" y="63" width="320" height="505"/>
+                            <color key="backgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="8oD-cr-lhU"/>
+                                <outlet property="delegate" destination="-1" id="jth-H1-VNV"/>
+                            </connections>
+                        </tableView>
+                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GBm-MX-y3U">
+                            <rect key="frame" x="21" y="284" width="278" height="0.0"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="14"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qMB-nd-eqT">
+                            <rect key="frame" x="231" y="469" width="55" height="55"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="55" id="d8d-Bh-cJM"/>
+                                <constraint firstAttribute="width" constant="55" id="zYN-QA-RpD"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="ic_group_floating_btn">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="onMakePublication:" destination="-1" eventType="touchUpInside" id="VLF-XM-6zq"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="qMB-nd-eqT" secondAttribute="bottom" constant="44" id="JHs-Y2-3Bu"/>
+                        <constraint firstItem="GBm-MX-y3U" firstAttribute="leading" secondItem="pkG-dx-KT2" secondAttribute="leading" constant="21" id="MWo-O1-O53"/>
+                        <constraint firstAttribute="trailing" secondItem="X6F-FS-itI" secondAttribute="trailing" id="PgE-iS-5Nu"/>
+                        <constraint firstItem="GBm-MX-y3U" firstAttribute="centerY" secondItem="pkG-dx-KT2" secondAttribute="centerY" id="RS9-aY-WI6"/>
+                        <constraint firstItem="KIe-tg-apa" firstAttribute="top" secondItem="pkG-dx-KT2" secondAttribute="top" constant="8" id="Rhb-Xl-zN5"/>
+                        <constraint firstAttribute="bottom" secondItem="X6F-FS-itI" secondAttribute="bottom" id="RvW-Fl-RfQ"/>
+                        <constraint firstAttribute="trailing" secondItem="GBm-MX-y3U" secondAttribute="trailing" constant="21" id="XWi-5y-Vdq"/>
+                        <constraint firstAttribute="trailing" secondItem="pLZ-Eq-VDf" secondAttribute="trailing" id="bvw-th-Sbt"/>
+                        <constraint firstItem="X6F-FS-itI" firstAttribute="top" secondItem="pLZ-Eq-VDf" secondAttribute="bottom" id="erZ-cg-tHf"/>
+                        <constraint firstItem="X6F-FS-itI" firstAttribute="leading" secondItem="pkG-dx-KT2" secondAttribute="leading" id="jQ2-Bg-mQv"/>
+                        <constraint firstItem="KIe-tg-apa" firstAttribute="leading" secondItem="pkG-dx-KT2" secondAttribute="leading" constant="10" id="lK8-6x-gKC"/>
+                        <constraint firstAttribute="trailing" secondItem="qMB-nd-eqT" secondAttribute="trailing" constant="34" id="pEI-MW-TdL"/>
+                        <constraint firstItem="pLZ-Eq-VDf" firstAttribute="top" secondItem="KIe-tg-apa" secondAttribute="bottom" constant="-5" id="paT-QT-XuT"/>
+                        <constraint firstItem="pLZ-Eq-VDf" firstAttribute="leading" secondItem="pkG-dx-KT2" secondAttribute="leading" id="sms-GS-4Y7"/>
+                        <constraint firstAttribute="trailing" secondItem="KIe-tg-apa" secondAttribute="trailing" constant="8" id="uh0-Hx-J8q"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.36707575009999999" green="1" blue="0.68681348519999996" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="pkG-dx-KT2" firstAttribute="leading" secondItem="mK4-dv-psM" secondAttribute="leading" id="0ah-Nu-lSg"/>
+                <constraint firstItem="pkG-dx-KT2" firstAttribute="top" secondItem="mK4-dv-psM" secondAttribute="top" id="Aeb-EG-lok"/>
+                <constraint firstAttribute="bottom" secondItem="pkG-dx-KT2" secondAttribute="bottom" id="WgD-cc-aqd"/>
+                <constraint firstAttribute="trailing" secondItem="pkG-dx-KT2" secondAttribute="trailing" id="eJp-bn-0Z4"/>
+            </constraints>
+            <point key="canvasLocation" x="334" y="347"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_group_floating_btn" width="169" height="169"/>
+    </resources>
+</document>
